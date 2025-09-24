@@ -31,6 +31,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
             icon.addEventListener('mouseleave', function() {
                 imagePreview.style.display = 'none';
+                previewImg.src = ''; // Clear the image source to flush buffer
             });
             
         } else if (type === 'description') {
