@@ -185,8 +185,8 @@ body {
 .image-preview {
   position: fixed;
   z-index: 9999;
-  max-width: 450px;
-  max-height: 300px;
+  max-width: 40%;
+  max-height: 40%;
   padding: 4px;
   pointer-events: none;
   display: none;
