@@ -67,14 +67,15 @@ document.addEventListener('DOMContentLoaded', function() {
 
     function updateImagePreviewPosition(e) {
         const x = e.clientX + 10;
-        const y = e.clientY + 10;
+        const y = e.clientY - (imagePreview.offsetHeight / 2);
         
         // Make sure preview doesn't go off screen
         const maxX = window.innerWidth - imagePreview.offsetWidth - 20;
         const maxY = window.innerHeight - imagePreview.offsetHeight - 20;
+        const minY = 10;
         
         imagePreview.style.left = Math.min(x, maxX) + 'px';
-        imagePreview.style.top = Math.min(y, maxY) + 'px';
+        imagePreview.style.top = Math.max(minY, Math.min(y, maxY)) + 'px';
     }
 
     function updateTextPopupPosition(e) {
@@ -88,6 +89,4 @@ document.addEventListener('DOMContentLoaded', function() {
         textPopup.style.left = Math.min(x, maxX) + 'px';
         textPopup.style.top = Math.min(y, maxY) + 'px';
     }
-    
-    console.log('Portfolio loaded with icon functionality');
 });

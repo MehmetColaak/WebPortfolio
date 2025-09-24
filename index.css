@@ -173,8 +173,8 @@ body {
 .image-preview {
   position: fixed;
   z-index: 9999;
-  max-width: 300px;
-  max-height: 200px;
+  max-width: 450px;
+  max-height: 300px;
   padding: 4px;
   pointer-events: none;
   display: none;
@@ -191,8 +191,8 @@ body {
   position: fixed;
   z-index: 9999;
   max-width: 250px;
-  background: #333;
-  color: #fff;
+  background: #d5ddfd;
+  color: #333;
   padding: 8px 12px;
   border-radius: 4px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.3);
