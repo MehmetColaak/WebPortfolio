@@ -202,10 +202,10 @@ body {
 .text-popup {
   position: fixed;
   z-index: 9999;
-  max-width: 250px;
+  max-width: 600px;
   background: #d5ddfd;
   color: #333;
-  padding: 8px 12px;
+  padding: 16px 24px;
   border-radius: 4px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.3);
   pointer-events: none;

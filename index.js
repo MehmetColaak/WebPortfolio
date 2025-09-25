@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', function() {
             icon.addEventListener('mouseenter', function(e) {
                 const description = this.getAttribute('data-description');
                 if (description) {
-                    popupText.textContent = description;
+                    popupText.innerHTML = description;
                     textPopup.style.display = 'block';
                     
                     // Position the popup near the mouse
