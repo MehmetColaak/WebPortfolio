@@ -25,9 +25,15 @@
             </div>
             <div class="bio-text"><h3>Artist Bio</h3>Mehmet Çolak is an audio designer and interactive media artist from Turkey, currently based in Austria, studying his master's degree in Interface Cultures at University of Art and Design Linz. His design approach is to create soundscapes and interactive audio experiences with gamification and auditory environmental narration to enhance immersion.</div>
           </div>
-        </section>
 
-        <h2>Works</h2>
+          <!-- Works Tabs -->
+          <div class="works-tabs">
+            <button class="tab-button active" data-tab="portfolio">Works</button>
+            <button class="tab-button" data-tab="resume">Docs</button>
+          </div>
+
+          <!-- Portfolio Tab Content -->
+          <div class="tab-content active" id="portfolio-tab">
 
           <!-- Exhibitions Section -->
           <section class="works-subsection">
@@ -758,10 +764,8 @@
               </div>
             </div>
           </div>
-        </section>
+        </section>            
             
-            
-
           <!-- Personal Projects Section -->
           <section class="works-subsection">
             <h3>Personal Projects and Collaborations</h3>
@@ -856,8 +860,26 @@
             </div>
           </section>
         </section>
-      </div>
-    </main>
+
+          <!-- Resume Tab Content -->
+          <div class="tab-content" id="resume-tab">
+            <div class="pdf-container-wrapper">
+              <div class="pdf-container">
+                <h3>Resume</h3>
+                <embed src="./documents/Mehmet_Colak_CV_250928.pdf" 
+                       type="application/pdf" 
+                       width="100%" 
+                       height="400px" />
+              </div>
+              <div class="pdf-container">
+                <h3>Master Thesis - Embracing Sphere</h3>
+                <embed src="./documents/Colak_Mehmet_Masterarbeit.pdf" 
+                       type="application/pdf" 
+                       width="100%" 
+                       height="400px" />
+              </div>
+            </div>
+          </div>
 
     <!-- Image Preview Container -->
     <div id="imagePreview" class="image-preview">

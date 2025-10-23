@@ -92,7 +92,6 @@ body {
   padding: 0 20px;
 }
 
-
 .logo {
   font-size: 1.5rem;
   font-weight: bold;
@@ -277,3 +276,92 @@ body {
     display: block;
   }
 }
+
+/* Works Tabs */
+.works-tabs {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.tab-button {
+  background: lightgray;
+  border: none;
+  padding: 6px 16px;
+  margin: 2px;
+  border-radius: 24px;
+  font-family: 'Iosevka Etoile', monospace, Arial, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  cursor: pointer;
+  border: 1px solid transparent;
+  transition: all 0.5s ease;
+}
+
+.tab-button:hover {
+  background-color: #d5ddfd;
+}
+
+.tab-button.active {
+  background-color: #d5ddfd;
+  font-weight: 600;
+}
+
+/* Tab Content */
+.tab-content {
+  display: none;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+/* PDF Container Wrapper for side-by-side layout */
+.pdf-container-wrapper {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.pdf-container {
+  flex: 1;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #d5ddfd;
+}
+
+.pdf-container h3 {
+  margin: 0;
+  padding: 0.5rem;
+  color: black;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.pdf-container embed {
+  border: none;
+  display: block;
+}
+
+/* Responsive PDF Layout */
+@media (max-width: 768px) {
+  .pdf-container-wrapper {
+    flex-direction: column;
+  }
+  
+  .pdf-container embed {
+    height: 300px;
+  }
+}
+
+/* Responsive Documents */
+@media (max-width: 768px) {
+  .documents-list {
+    gap: 1.5rem;
+  }
+  
+  .document-item {
+    padding: 1rem;
+  }
+}
+
