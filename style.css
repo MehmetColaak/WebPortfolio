@@ -326,6 +326,7 @@ body {
   flex: 1;
   border: 1px solid #ddd;
   border-radius: 8px;
+  margin-bottom: 3rem;
   overflow: hidden;
   background: #d5ddfd;
 }
