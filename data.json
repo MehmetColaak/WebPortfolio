@@ -1,0 +1,581 @@
+[
+  {
+    "section": "exhibitions",
+    "title": "Ars Electronica Festival Alles Immer Offen",
+    "year": "2025",
+    "role": "Sound Artist, Sound Editor",
+    "description": "Alles Immer Offen' (Everything Always Open) is a collaborative project within the Ars Electronica Festival framework, emphasizing open-source culture, accessibility, and community-driven artistic practices. The project explores how digital tools and open platforms can democratize creative expression. As Sound Artist and Sound Editor for this 2025 project, he designed immersive soundscapes and edited audio content that enhanced the interactive elements of the installation, creating an auditory experience that complemented the project's themes of openness and digital accessibility.",
+    "images": [
+      "./images/AllesImmerOffenI.png",
+      "./images/AllesImmerOffenII.png"
+    ],
+    "links": [
+      { "title": "Dorf TV", "url": "https://dorftv.at/video/47038" }
+    ]
+  },
+  {
+    "section": "exhibitions",
+    "title": "Ars Electronica Festival Campus Exhibition",
+    "year": "2025",
+    "role": "Artist, Production Coordinator",
+    "description": "Ars Electronica is an important festival for art, technology, and society, held annually in Linz. The Campus Exhibition showcases projects from universities all around the world, exploring themes of digital innovation and interactive media. In the 2025 festival, he served dual roles as both exhibiting artist and production coordinator, presenting his interactive sound installation 'Embracing Sphere' while managing technical coordination and exhibition logistics for multiple student projects. 'Embracing Sphere' is an immersive audio installation that creates a spatial sound environment where visitors can interact with spatial audio through an audio-tactile seat. The installation utilizes binaural sound mixing and voice coil actuators (bass shakers) to convey an audio-tactile story that reacts to human presence, creating an intimate dialogue between the participant and the sonic environment. The work explores themes of panic and acceptance, drawing inspiration from the renowned film Blade Runner and the mythical place called Tannhäuser Gate.",
+    "images": [
+      "./images/PHR_Ars.png",
+      "./images/ARS_Festival_EmbracingSphere.png",
+      "./images/ARS_03.png",
+      "./images/ARS_01.png",
+      "./images/ARS_02.png"
+    ],
+    "links": [
+      { "title": "Dorf TV", "url": "https://www.dorftv.at/video/47051" },
+      { "title":"Ars Electronica Festival 2025", "url":"https://ars.electronica.art/panic/en/view/embracing-sphere-20f38ddb450c81d9af1fe3992d24a198/"}
+    ]
+  },
+  {
+    "section": "exhibitions",
+    "title": "Rundgang Post-Human Resources",
+    "year": "2025",
+    "role": "Production Assistant",
+    "description": "Rundgang' is the annual graduation exhibition at the University of Art and Design Linz, showcasing student works from various departments. The 'Post-Human Resources' theme explores the intersection of technology, humanity, and artistic expression in contemporary digital culture. As Production Assistant for Rundgang 2025, he contributed to the technical setup, coordination of exhibition spaces, and support for interactive media installations throughout the event.",
+    "images": ["./images/PHR_Rundgang.png"],
+    "links": []
+  },
+  {
+    "section": "exhibitions",
+    "title": "Ars Electronica Festival Sound Campus 'Sonic Fever' Audio Walk",
+    "year": "2025",
+    "role": "Artist",
+    "description": "The audio walk was developed during the course 'Wave Forms Words,' coordinated by Andreea Vladut. Structured in three parts, with a focus on memory and counter-narrative perspectives, the audio walk will present an altered environment where the gaze shifts to more-than-human agencies and history is presented through a shared collective view. The city will be perceived collectively, offering alternative perspectives on seeing and understanding the city—a city that is re-appropriated and reclaimed by collective voices. Artists: AmiRali Bashiri, Çağla Gillis, I-ID, Mehmet Çolak, Milena Stępień, Sashe Urdovski",
+    "images": [
+        "./images/SoundCampus.png",
+        "./images/audiowalk1.png",
+        "./images/audiowalk2.png",
+        "./images/audiowalk3.png"
+    ],
+    "links": [
+        { "title": "Ars Electronica Festival 2024", "url": "https://ars.electronica.art/hope/en/sound-campus/" },
+        { "title": "Audio Walk", "url": "https://cloud.servus.at/s/WH3FX3z3NHDgfRk" },
+        { "title": "Instagram Post", "url": "https://www.instagram.com/p/C_XfZoCNQIv/?utm_source=ig_web_button_share_sheet&igsh=MWpsOXZkbm13ejRvdw==" }
+        ]
+  },
+  {
+    "section": "exhibitions",
+    "title": "Sankt Interface",
+    "year": "2025",
+    "role": "Artist",
+    "description": "'Sankt Interface' is an artistic project organized by Interface Cultures which serves also as the annual celebration of our department. At Sankt Interface, academic conferences, artistic performances, exhibitions, concerts and a “Computer Mouse Award” conform a celebration transforming into a happening in which students, professors, and friends of Interface Cultures participate at the same level.",
+    "images": [
+            "./images/Sankt2025.png"
+        ],
+    "links": [{ "title": "Sankt Interface", "url": "https://escuderoandaluz.com/sankt-interface/" }]
+  },
+  {
+    "section": "exhibitions",
+    "title": "Sankt Interface",
+    "year": "2023",
+    "role": "Artist",
+    "description": "'Sankt Interface' is an artistic project organized by Interface Cultures which serves also as the annual celebration of our department. At Sankt Interface, academic conferences, artistic performances, exhibitions, concerts and a “Computer Mouse Award” conform a celebration transforming into a happening in which students, professors, and friends of Interface Cultures participate at the same level.",
+    "images": [
+            "./images/Sankt2023.png",
+            "./images/Sankt2023_eas1.png",
+            "./images/Sankt2023_eas2.png",
+            "./images/Sankt2023_eas4.png",
+            "./images/Sankt2023_eas3.png",
+            "./images/Sankt2023_eas5.png"
+        ],
+    "links": [{ "title": "Sankt Interface", "url": "https://escuderoandaluz.com/sankt-interface/" }]
+  },
+
+  {
+    "section": "performances",
+    "title": "IC Bright Night",
+    "year": "2024",
+    "role": "Artist",
+    "description": "IC Bright Night was an experimental electronic music event at ABPU Sonic Lab in Linz, showcasing interactive audiovisual projects from Andreas Weixler's Interface Cultures class, featuring live coding, real-time sound synthesis. With the Sonic Lab's 24-speaker surround system, the program included a playful reimagining of Stockhausen's Helicopter Quartet. Performed by Andrea Corrardi, Ahmed Jamal, Till Schönwetter, Volkan Dinçer, and him. The piece unfolded in a multiplayer game where four virtual helicopter pilots controlled flight, while he directed the spatialized sound with game inputs.",
+    "images": [
+      "./images/gta_stockhausen.png",
+      "./images/gta_stockhausen2.png",
+      "./images/gta_stockhausen3.png"
+    ],
+    "links": [
+      { "title": "IC Bright Night", "url": "https://avant.mur.at/concerts/2024/ICbright" }
+    ]
+  },
+  {
+    "section": "performances",
+    "title": "Bilgi New Music Festival Electroacoustic Concert",
+    "year": "2019",
+    "role": "Artist",
+    "description": "Hosted by Istanbul Bilgi University’s Department of Music, the 10th edition of the Bilgi New Music Festival presents an Electroacoustic Music Concert featuring a wide selection of fixed-media works and live performances. The concert highlights diverse voices in electroacoustic composition, including an electroacoustic work by him. Composers: Kömürcü, Alkan, Kamiloğlu, Kuntman, Kocaoğlu, Hasanova, Çolak, Adalı, Memişoğulları, Özdemir, Dilekçi, Kuman",
+    "images": [
+      "./images/Bilgi_EK_2019.png"
+    ],
+    "links": [
+      { "title": "Bilgi New Music", "url": "https://www.bilgi.edu.tr/tr/etkinlik/8985/bilgi-yeni-muzik-festivali-10-elektroakustik-kesismeler/" },
+      { "title": "Soundcloud", "url": "https://soundcloud.com/mehmet-colak/guthethiolm-and-josisa?si=e3d9720baace4076874af8afa035ce59&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" }
+    ]
+  },
+  {
+    "section": "performances",
+    "title": "Maçka Elektrikli Müzik Günleri",
+    "year": "2017-2019",
+    "role": "Performer, Production Assistant",
+    "description": "An annual event organized by ITU's Turkish Music State Conservatory / Music Technologies Department / MIAM, focusing on electronic, electroacoustic, and live-electronics music & improvisation.",
+    "images": [
+      "./images/Macka_EMG_II.png",
+      "./images/Macka_EMG_III.png",
+      "./images/Macka_EMG_IV.png"
+    ],
+    "links": [
+      { "title": "Soundcloud", "url": "https://soundcloud.com/mehmet-colak/macka-emg-2019-making-noise-with-can-memisogullari?si=f6e08f3914cc4b3392344ce63546a578&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" },
+      { "title": "Soundcloud", "url": "https://soundcloud.com/mehmet-colak/circadian-ryhthm-long-cut?si=4144eee49bff470887ad09d5e9d2cbab&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" }
+    ]
+  },
+
+  {
+    "section": "events",
+    "title": "Games for Change Turkiye",
+    "year": "2025",
+    "role": "Speaker",
+    "description": "At Games for Change Türkiye Festival 2025, Mehmet Çolak from Serin Sound took the stage with his project “Embracing Sphere.” He explored how multi-sensory environmental storytelling can be conveyed through non-visual audio-tactile mediums, presenting an innovative interaction model blending sound and tactile feedback. Using Embracing Sphere, Çolak demonstrated how interactive audio-tactile interfaces can communicate space, atmosphere, and emotion through sensory perception. Unlike traditional storytelling based on dialogue or cutscenes, environmental storytelling positions the environment as a silent narrator, enabling participants to uncover the narrative through exploration.",
+    "images": [
+      "./images/G4C.png"
+    ],
+    "links": [
+      { "title": "Instagram Post", "url": "https://www.instagram.com/p/DR9N0MRiD83/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ==" }
+    ]
+  },
+  {
+    "section": "events",
+    "title": "Journal Club",
+    "year": "2025",
+    "role": "Researcher",
+    "description": "Journal Club Journal is an independent publication that brings together the latest research conducted by Journal Club students. It is organised as a reading circle covering the relevant journals and conference proceedings in the area of human-computer interaction and media art.",
+    "images": [
+      "./images/journal_club.png",
+      "./images/journal_club2.png"
+    ],
+    "links": [
+      { "title": "Instagram Post", "url": "https://www.instagram.com/p/DLNXZHVtoDO/?utm_source=ig_web_copy_link&igsh=bzY0Y2Q2enZnN3Ji" }
+    ]
+  },
+  {
+    "section": "events",
+    "title": "Climate Pact Game Jam",
+    "year": "2025",
+    "role": "Jammer",
+    "description": "Held in 2025 in Vienna, focusing on climate-themed game development and collaboration organized by European Climate Pact. He participated as jammer, sound designer, and game designer.",
+    "images": [
+      "./images/climatepactgj.png"
+    ],
+    "links": [
+      { "title": "Itch.io", "url": "https://itch.io/jam/climate-pact-game-jam/rate/3451689" }
+    ]
+  },
+    {
+    "section": "events",
+    "title": "Global Game Jam",
+    "year": "2017-2020",
+    "role": "Jammer",
+    "description": "A 48-hour international game jam hosted at ODTÜ ATOM with diverse interdisciplinary teams. He contributed as a jammer and sound designer, providing creative soundscapes and effects.",
+    "images": [
+      "./images/ggj17.png",
+      "./images/ggj18.png",
+      "./images/ggj19.png",
+      "./images/ggj20.png"
+    ]
+  },
+    {
+    "section": "commercial",
+    "company": "Polycular",
+    "title": "Crew Together XR",
+    "year": "2025",
+    "role": "Sound Designer",
+    "description": "An immersive multiplayer XR experience designed to enhance teamwork and communication through collaborative missions. He crafted dynamic soundscapes and audio elements to support real-time interaction within the experience.",
+    "images": [],
+    "links": [
+      { "title": "Website", "url": "https://crewtogether.io/" }
+    ]
+  },
+  {
+    "section": "commercial",
+    "company": "Tilde Sound Art",
+    "title": "Consumer Electronics Show (CES) 2024",
+    "year": "2024",
+    "role": "Sound Designer",
+    "description": "For Togg stand at CES 2024, showcasing advanced in-car technology. He designed immersive audio experiences for the vehicle's interactive displays and presentations.",
+    "images": [
+      "./images/CES24.png"
+    ],
+    "links": [
+      { "title": "Dreamspace Case Study", "url": "https://www.dreamspace.co/case-study/ces24" },
+      { "title": "Capitalevents", "url": "https://www.capitalevents.com.tr/togg-ces-2024.html" }
+    ]
+  },
+  {
+    "section": "commercial",
+    "company": "Tilde Sound Art",
+    "title": "Social Media Commercials",
+    "year": "2022",
+    "role": "Sound Designer",
+    "description": "Togg launched a series of social media commercials to promote its electric vehicles. He did sound design works in the commercials.",
+    "images": [],
+    "links": [
+      { "title": "Instagram Reel 1", "url": "https://www.instagram.com/reel/Cn3n3s6Dylg/" },
+      { "title": "Instagram Reel 2", "url": "https://www.instagram.com/reel/C3z8DzfxMC9/" },
+      { "title": "Instagram Reel 3", "url": "https://www.instagram.com/reel/CwUnlozt4an/" }
+    ]
+  },
+  {
+    "section": "commercial",
+    "company": "Tilde Sound Art",
+    "title": "In Car Entertainment",
+    "year": "2023",
+    "role": "Sound Designer, Software Developer",
+    "description": "Togg developed an in-car entertainment system for its electric vehicles. He contributed to both sound design and software development, integrating audio features into the system.",
+    "images": [],
+    "links": []
+  },
+  {
+    "section": "commercial",
+    "company": "Tilde Sound Art",
+    "title": "Hyundai IONIQ 5 Launch Event",
+    "year": "2022",
+    "role": "Sound Designer",
+    "description": "Hyundai introduced the IONIQ 5 electric vehicle at a launch event in Istanbul. He designed surround immersive sound for the event.",
+    "images": [],
+    "links": [
+      { "title": "Instagram Reel", "url": "https://www.instagram.com/reel/Ci5fSuCNnuM/" },
+      { "title": "Capitalevents", "url": "https://www.capitalevents.com.tr/hyundai_ioniq_5.html" }
+    ]
+  },
+  {
+    "section": "commercial",
+    "company": "Tilde Sound Art",
+    "title": "Imagina - İBB 100.Yıl Event",
+    "year": "2023",
+    "role": "Sound Designer",
+    "description": "Imagina produced and organized an event for Istanbul Metropolitan Municipality's annual celebration of the Republic Day of Turkey. He provided sound design services to the event's 40 minute immersive performance.",
+    "images": [],
+    "links": [
+      { "title": "Instagram Post", "url": "https://www.instagram.com/p/CzwAzY0IdHE/" },
+      { "title": "YouTube Live", "url": "https://www.youtube.com/live/tE0ZXT4BNE4" }
+    ]
+  },
+  {
+    "section": "commercial",
+    "company": "Tilde Sound Art",
+    "title": "Imagina - TİSK General Assembly",
+    "year": "2023",
+    "role": "Sound Designer",
+    "description": "Imagina organized the 28th TISK event. He was responsible for the event's sound design.",
+    "images": [],
+    "links": [
+      { "title": "Instagram Post", "url": "https://www.instagram.com/p/Cs8mKploxE8/" }
+    ]
+  },
+  {
+    "section": "commercial",
+    "company": "Tilde Sound Art",
+    "title": "Artechouse - Beyond the Light",
+    "year": "2023",
+    "role": "Sound Designer",
+    "description": "Artechouse presented 'Beyond the Light', an immersive art exhibition collaboration with NASA. The installation held at Artechouse in New York, visitors can experience this 360-degree art exhibit that combines advanced technology, captivating visuals, and immersive sound. He designed the exhibition's soundscapes.",
+    "images": [
+      "./images/artechouse_btl1.png",
+      "./images/artechouse_btl2.png"
+    ],
+    "links": [
+      { "title": "Artechouse Website", "url": "https://www.artechouse.com/beyond-the-light-webbys/" }
+    ]
+  },
+  {
+    "section": "commercial",
+    "company": "Tilde Sound Art",
+    "title": "Artechouse - Isekai: Blooming Parallel Worlds",
+    "year": "2024",
+    "role": "Sound Designer",
+    "description": "Artechouse launched 'Isekai: Blooming Parallel Worlds', an immersive art installation. He designed the auditory experience.",
+    "images": [
+      "./images/artechouse_isekai1.png",
+      "./images/artechouse_isekai2.png"
+    ],
+    "links": [
+      { "title": "Artechouse Website", "url": "https://www.artechouse.com/program/isekai-blooming-parallel-worlds/" }
+    ]
+  },
+  {
+    "section": "commercial",
+    "company": "Tilde Sound Art",
+    "title": "Decol.tv - Echoes of Basilica",
+    "year": "2022",
+    "role": "Sound Designer",
+    "description": "The Basilica Cistern is an ancient underground water reservoir located in Istanbul. He worked as a sound designer for a light show called “Echoes of Basilica” during the Basilica Cistern restoration opening.",
+    "images": [
+      "./images/Basilica_Cistern.png",
+      "./images/basilica_cistern2.png",
+      "./images/sc1.png"
+    ],
+    "links": [
+      { "title": "Decol Portfolio", "url": "https://www.decol.tv/portfolio/echoes-of-basilica/" }
+    ]
+  },
+  {
+    "section": "commercial",
+    "company": "Tilde Sound Art",
+    "title": "Born Immersive - Forest of Resilience VR",
+    "year": "2022",
+    "role": "Technical Audio Designer",
+    "description": "Born Immersive developed The Forest of Resilience, a virtual reality game. He served in the project as a technical audio designer, creating, implementing and optimizing the game's auditory elements.",
+    "images": [
+      "./images/FoR.png"
+    ],
+    "links": [
+      { "title": "Meta Store", "url": "https://www.meta.com/de-de/experiences/forest-of-resilience/5871010366284296/" }
+    ]
+  },
+  {
+    "section": "commercial",
+    "company": "Tilde Sound Art",
+    "title": "Born Immersive - Impulse Dynamics VR",
+    "year": "2023",
+    "role": "Technical Audio Designer",
+    "description": "Born Immersive developed Impulse Dynamics VR Experience, a virtual reality game. He served in the project as a technical audio designer.",
+    "images": [],
+    "links": [
+      { "title": "Born Studios Works", "url": "https://www.bornstudios.co.uk/#Works" }
+    ]
+  },
+  {
+    "section": "commercial",
+    "company": "Tilde Sound Art",
+    "title": "Born Immersive - VATA",
+    "year": "2023",
+    "role": "Technical Audio Designer, Field Recorder",
+    "description": "Born Immersive developed VATA, a virtual reality game. He served in the project as a technical audio designer and field recorder that captured airplane sound effects on-site.",
+    "images": [
+      "./images/vata.png"
+    ],
+    "links": [
+      { "title": "Born Studios Works", "url": "https://www.bornstudios.co.uk/#Works" }
+    ]
+  },
+  {
+    "section": "commercial",
+    "company": "Tilde Sound Art",
+    "title": "Born Immersive - Project Maji",
+    "year": "2024",
+    "role": "Technical Audio Designer",
+    "description": "Born Immersive developed Project Maji, an awarded virtual reality game. He served as a technical audio designer.",
+    "images": [
+      "./images/maji.png"
+    ],
+    "links": [
+      { "title": "IMDB", "url": "https://www.imdb.com/title/tt32649025/" }
+    ]
+  },
+  {
+    "section": "commercial",
+    "company": "Tilde Sound Art",
+    "title": "Vadi Sound - Gore SFX Pack",
+    "year": "2020",
+    "role": "Sound Designer",
+    "description": "A collection of realistic and intense gore sound effects for games and films. He designed and edited all sounds.",
+    "images": [
+      "./images/vadi_gore.png"
+    ],
+    "links": [
+      { "title": "Vadi Sound Shop", "url": "https://vadisound.com/shop/gore-sfx-pack/" },
+      { "title": "YouTube Demo", "url": "https://youtu.be/BLN7cj9MYNQ" }
+    ]
+  },
+  {
+    "section": "commercial",
+    "company": "Tilde Sound Art",
+    "title": "Vadi Sound - Anime I SFX Pack",
+    "year": "2021",
+    "role": "Sound Designer",
+    "description": "A library of stylized sound effects inspired by anime aesthetics, including punches, swooshes, and magical effects.",
+    "images": [
+      "./images/vadi_anime.png"
+    ],
+    "links": [
+      { "title": "Vadi Sound Shop", "url": "https://vadisound.com/shop/anime-vol-1/" },
+      { "title": "YouTube Demo", "url": "https://youtu.be/2exRZtJpz60" }
+    ]
+  },
+  {
+    "section": "commercial",
+    "company": "Tilde Sound Art",
+    "title": "Vadi Sound - Cinematic Series Vol.1",
+    "year": "2021",
+    "role": "Sound Designer",
+    "description": "A cinematic sound effects set for trailers, films, and video games.",
+    "images": [
+      "./images/vadi_cinematic.png"
+    ],
+    "links": [
+      { "title": "Vadi Sound Shop", "url": "https://vadisound.com/shop/cinematic-series-vol-1/" },
+      { "title": "YouTube Demo", "url": "https://youtu.be/SEinxajqh_Q" }
+    ]
+  },
+  {
+    "section": "commercial",
+    "company": "Tilde Sound Art",
+    "title": "Vadi Sound - Shine and Glitter",
+    "year": "2021",
+    "role": "Sound Designer",
+    "description": "A sound effects library of sparkling, magical, and glittery sound effects.",
+    "images": [
+      "./images/vadi_shineandglitter.png"
+    ],
+    "links": [
+      { "title": "Vadi Sound Shop", "url": "https://vadisound.com/shop/shine-and-glitter/" },
+      { "title": "YouTube Demo", "url": "https://youtu.be/QIw-MQpPkbQ" }
+    ]
+  },
+  {
+    "section": "commercial",
+    "company": "Tilde Sound Art",
+    "title": "Vadi Sound - Metal SFX Pack",
+    "year": "2021",
+    "role": "Sound Designer",
+    "description": "A comprehensive collection of metallic hits, clangs, and impacts.",
+    "images": [
+      "./images/vadi_metal.png"
+    ],
+    "links": [
+      { "title": "Vadi Sound Shop", "url": "https://vadisound.com/shop/metal-sfx-pack/" },
+      { "title": "YouTube Demo", "url": "https://youtu.be/xvwjoOg1QnY" }
+    ]
+  },
+  {
+    "section": "commercial",
+    "company": "Tilde Sound Art",
+    "title": "Vadi Sound - Magic SFX Pack",
+    "year": "2021",
+    "role": "Sound Designer",
+    "description": "A curated library of magical and mystical sound effects for fantasy media.",
+    "images": [
+      "./images/vadi_magic.png"
+    ],
+    "links": [
+      { "title": "Vadi Sound Shop", "url": "https://vadisound.com/shop/essential-magic/" },
+      { "title": "YouTube Demo", "url": "https://youtu.be/Sf3d1RwRVM0" }
+    ]
+  },
+  {
+    "section": "commercial",
+    "company": "Tilde Sound Art",
+    "title": "Vadi Sound - Cloth SFX Pack",
+    "year": "2021",
+    "role": "Sound Designer",
+    "description": "A detailed collection of cloth and fabric movement sounds.",
+    "images": [],
+    "links": [
+      { "title": "YouTube Demo", "url": "https://youtu.be/5onK_Cf_Nqo" }
+    ]
+  },
+  {
+    "section": "commercial",
+    "company": "Tilde Sound Art",
+    "title": "Vadi Sound - Impulse Response SFX Pack",
+    "year": "2021",
+    "role": "Sound Designer",
+    "description": "A pack of impulse responses for spatial sound design and mixing.",
+    "images": [],
+    "links": [
+      { "title": "YouTube Demo", "url": "https://youtu.be/jfn5AZBnTiE" }
+    ]
+  },
+  {
+    "section": "commercial",
+    "company": "Tilde Sound Art",
+    "title": "Vadi Sound Library",
+    "year": "2021",
+    "role": "Sound Designer, Field Recorder",
+    "description": "An extensive library of high-quality sound effects across genres. He designed sounds and recorded field material.",
+    "images": [
+      "./images/vadi_subscription.png"
+    ],
+    "links": [
+      { "title": "YouTube Demo", "url": "https://youtu.be/XPSX-_Thf6A" }
+    ]
+  },
+  {
+    "section": "personal",
+    "title": "Deconvolution Tool",
+    "year": "",
+    "role": "Developer",
+    "description": "A Python script process 2 signals with the deconvolution of audio signals to extract the impulse response from a recorded audio file using a reference file.",
+    "images": [],
+    "links": [
+      { "title": "GitHub Repo", "url": "https://github.com/MehmetColaak/Deconvolution_Project" }
+    ]
+  },
+  {
+    "section": "personal",
+    "title": "Game of Life Sculpture",
+    "year": "",
+    "role": "Developer",
+    "description": "This project is inspired by Conway's Game of Life. By instantiating every Game of Life(GoL) cell state in a new vertical layer, It iterates the system that outputs sculpture like objects.",
+    "images": [],
+    "links": [
+      { "title": "GitHub Repo", "url": "https://github.com/MehmetColaak/GameOfLife_Sculpture" }
+    ]
+  },
+  {
+    "section": "personal",
+    "title": "Boids with Noise of Linz",
+    "year": "",
+    "role": "Developer",
+    "description": "Boids algoritm implementation that uses 2D Linz noise map as attaction force.",
+    "images": [],
+    "links": [
+      { "title": "GitHub Repo", "url": "https://github.com/MehmetColaak/boids" }
+    ]
+  },
+  {
+    "section": "personal",
+    "title": "DIY CD40106 Oscillator & Effect Pedal",
+    "year": "",
+    "role": "Maker",
+    "description": "'Do it yourself' electronic music equipment projects.",
+    "images": [
+      "./images/diy_electronics1.png"
+    ],
+    "links": [
+      { "title": "YouTube Part 1", "url": "https://youtu.be/EDVt-xllTKg" },
+      { "title": "YouTube Part 2", "url": "https://youtu.be/ECHfqBxmCtg" }
+    ]
+  },
+  {
+    "section": "personal",
+    "title": "Stepper Motor Synth",
+    "year": "",
+    "role": "Maker",
+    "description": "This is an Arduino Project that uses A4988 stepper drivers with bipolar stepper motors with midi to serial communication modules developed to play midi files through serial port.",
+    "images": [
+      "./images/motor_synth.png"
+    ],
+    "links": [
+      { "title": "Instagram Highlight", "url": "https://www.instagram.com/stories/highlights/18053130362138379/" },
+      { "title": "Instagram Reel 1", "url": "https://www.instagram.com/reel/DNOI5umITMs/" },
+      { "title": "Instagram Reel 2", "url": "https://www.instagram.com/reel/DK7h7fEor3a/" },
+      { "title": "Instagram Reel 3", "url": "https://www.instagram.com/reel/DKPAlSfomju/" }
+    ]
+  },
+  {
+    "section": "personal",
+    "title": "Pre(face) Collaboration",
+    "year": "2025",
+    "role": "Sound Designer",
+    "description": "Pre(face) is an animated short that explores the topic of self-image and internalized beauty standards. He collaborated in this project as a sound designer and used only paper sounds to emphasize the overall feeling of handdrawn short-animation. VIDEO LINK PASSWORD: 'color'",
+    "images": [
+      "./images/Pre(face).png"
+    ],
+    "links": [
+      { "title": "Vimeo Video", "url": "https://vimeo.com/1081423803" }
+    ]
+  }
+]
