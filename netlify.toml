@@ -1,0 +1,27 @@
+# Static site — no build step. Netlify just serves these files.
+[build]
+  publish = "."
+  command = ""
+
+# Long-lived, immutable caching for fingerprint-stable assets.
+[[headers]]
+  for = "/fonts/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/images/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/documents/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
+
+# Sensible defaults for everything else.
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
