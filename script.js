@@ -4,7 +4,7 @@
    ========================================================= */
 const FEATURED_VIDEOS = [
   { id: 'bW8bLXIvt9c', title: 'a[NN]ime — Anime SFX Neural Synthesis' },
-  { id: 'EeGkg0ya-Po', title: 'Auditory Environmental Storytelling — Fallen Leaves' },
+  { id: 'EeGkg0ya-Po', title: 'Auditory Environmental Storytelling | Do Fallen Leaves Tell a Story?' },
   { id: 'yVBhrGbOptU', title: 'Articulated Through Engine — Downshifting an Instrument' },
   { id: 'v7bAAhoWD_o', title: 'Engine Articulation — Building an Instrument' },
 ];
