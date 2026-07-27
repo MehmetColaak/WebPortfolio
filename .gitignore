@@ -4,3 +4,4 @@
 # Editor / local
 *.log
 node_modules/
+.hallmark/

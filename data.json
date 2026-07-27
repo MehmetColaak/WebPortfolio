@@ -11,7 +11,10 @@
       "./images/AllesImmerOffenII.webp"
     ],
     "links": [
-      { "title": "Dorf TV", "url": "https://dorftv.at/video/47038" }
+      {
+        "title": "Dorf TV",
+        "url": "https://dorftv.at/video/47038"
+      }
     ]
   },
   {
@@ -29,8 +32,14 @@
       "./images/ARS_02.webp"
     ],
     "links": [
-      { "title": "Dorf TV", "url": "https://www.dorftv.at/video/47051" },
-      { "title":"Ars Electronica Festival 2025", "url":"https://ars.electronica.art/panic/en/view/embracing-sphere-20f38ddb450c81d9af1fe3992d24a198/"}
+      {
+        "title": "Dorf TV",
+        "url": "https://www.dorftv.at/video/47051"
+      },
+      {
+        "title": "Ars Electronica Festival 2025",
+        "url": "https://ars.electronica.art/panic/en/view/embracing-sphere-20f38ddb450c81d9af1fe3992d24a198/"
+      }
     ]
   },
   {
@@ -39,7 +48,9 @@
     "year": "2025",
     "role": "Production Assistant",
     "description": "Rundgang' is the annual graduation exhibition at the University of Art and Design Linz, showcasing student works from various departments. The 'Post-Human Resources' theme explores the intersection of technology, humanity, and artistic expression in contemporary digital culture. As Production Assistant for Rundgang 2025, he contributed to the technical setup, coordination of exhibition spaces, and support for interactive media installations throughout the event.",
-    "images": ["./images/PHR_Rundgang.webp"],
+    "images": [
+      "./images/PHR_Rundgang.webp"
+    ],
     "links": []
   },
   {
@@ -50,16 +61,25 @@
     "role": "Artist",
     "description": "The audio walk was developed during the course 'Wave Forms Words,' coordinated by Andreea Vladut. Structured in three parts, with a focus on memory and counter-narrative perspectives, the audio walk will present an altered environment where the gaze shifts to more-than-human agencies and history is presented through a shared collective view. The city will be perceived collectively, offering alternative perspectives on seeing and understanding the city that is re-appropriated and reclaimed by collective voices. Artists: AmiRali Bashiri, Çağla Gillis, I-ID, Mehmet Çolak, Milena Stępień, Sashe Urdovski",
     "images": [
-        "./images/SoundCampus.webp",
-        "./images/audiowalk1.webp",
-        "./images/audiowalk2.webp",
-        "./images/audiowalk3.webp"
+      "./images/SoundCampus.webp",
+      "./images/audiowalk1.webp",
+      "./images/audiowalk2.webp",
+      "./images/audiowalk3.webp"
     ],
     "links": [
-        { "title": "Ars Electronica Festival 2024", "url": "https://ars.electronica.art/hope/en/sound-campus/" },
-        { "title": "Audio Walk", "url": "https://cloud.servus.at/s/WH3FX3z3NHDgfRk" },
-        { "title": "Instagram Post", "url": "https://www.instagram.com/p/C_XfZoCNQIv/?utm_source=ig_web_button_share_sheet&igsh=MWpsOXZkbm13ejRvdw==" }
-        ]
+      {
+        "title": "Ars Electronica Festival 2024",
+        "url": "https://ars.electronica.art/hope/en/sound-campus/"
+      },
+      {
+        "title": "Audio Walk",
+        "url": "https://cloud.servus.at/s/WH3FX3z3NHDgfRk"
+      },
+      {
+        "title": "Instagram Post",
+        "url": "https://www.instagram.com/p/C_XfZoCNQIv/?utm_source=ig_web_button_share_sheet&igsh=MWpsOXZkbm13ejRvdw=="
+      }
+    ]
   },
   {
     "section": "exhibitions",
@@ -67,10 +87,13 @@
     "year": "2025",
     "role": "Artist",
     "description": "'Sankt Interface' is an artistic project organized by Interface Cultures which serves also as the annual celebration of our department. At Sankt Interface, academic conferences, artistic performances, exhibitions, concerts and a “Computer Mouse Award” conform a celebration transforming into a happening in which students, professors, and friends of Interface Cultures participate at the same level.",
-    "images": [
-            "./images/Sankt2025.webp"
-        ],
-    "links": [{ "title": "Sankt Interface", "url": "https://escuderoandaluz.com/sankt-interface/" }]
+    "images": [],
+    "links": [
+      {
+        "title": "Sankt Interface",
+        "url": "https://escuderoandaluz.com/sankt-interface/"
+      }
+    ]
   },
   {
     "section": "exhibitions",
@@ -79,16 +102,20 @@
     "role": "Artist",
     "description": "'Sankt Interface' is an artistic project organized by Interface Cultures which serves also as the annual celebration of our department. At Sankt Interface, academic conferences, artistic performances, exhibitions, concerts and a “Computer Mouse Award” conform a celebration transforming into a happening in which students, professors, and friends of Interface Cultures participate at the same level.",
     "images": [
-            "./images/Sankt2023.webp",
-            "./images/Sankt2023_eas1.webp",
-            "./images/Sankt2023_eas2.webp",
-            "./images/Sankt2023_eas4.webp",
-            "./images/Sankt2023_eas3.webp",
-            "./images/Sankt2023_eas5.webp"
-        ],
-    "links": [{ "title": "Sankt Interface", "url": "https://escuderoandaluz.com/sankt-interface/" }]
+      "./images/Sankt2023.webp",
+      "./images/Sankt2023_eas1.webp",
+      "./images/Sankt2023_eas2.webp",
+      "./images/Sankt2023_eas4.webp",
+      "./images/Sankt2023_eas3.webp",
+      "./images/Sankt2023_eas5.webp"
+    ],
+    "links": [
+      {
+        "title": "Sankt Interface",
+        "url": "https://escuderoandaluz.com/sankt-interface/"
+      }
+    ]
   },
-
   {
     "section": "performances",
     "title": "IC Bright Night",
@@ -101,7 +128,10 @@
       "./images/gta_stockhausen3.webp"
     ],
     "links": [
-      { "title": "IC Bright Night", "url": "https://avant.mur.at/concerts/2024/ICbright" }
+      {
+        "title": "IC Bright Night",
+        "url": "https://avant.mur.at/concerts/2024/ICbright"
+      }
     ]
   },
   {
@@ -114,8 +144,14 @@
       "./images/Bilgi_EK_2019.webp"
     ],
     "links": [
-      { "title": "Bilgi New Music", "url": "https://www.bilgi.edu.tr/tr/etkinlik/8985/bilgi-yeni-muzik-festivali-10-elektroakustik-kesismeler/" },
-      { "title": "Soundcloud", "url": "https://soundcloud.com/mehmet-colak/guthethiolm-and-josisa?si=e3d9720baace4076874af8afa035ce59&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" }
+      {
+        "title": "Bilgi New Music",
+        "url": "https://www.bilgi.edu.tr/tr/etkinlik/8985/bilgi-yeni-muzik-festivali-10-elektroakustik-kesismeler/"
+      },
+      {
+        "title": "Soundcloud",
+        "url": "https://soundcloud.com/mehmet-colak/guthethiolm-and-josisa?si=e3d9720baace4076874af8afa035ce59&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
+      }
     ]
   },
   {
@@ -130,11 +166,16 @@
       "./images/Macka_EMG_IV.webp"
     ],
     "links": [
-      { "title": "Soundcloud", "url": "https://soundcloud.com/mehmet-colak/macka-emg-2019-making-noise-with-can-memisogullari?si=f6e08f3914cc4b3392344ce63546a578&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" },
-      { "title": "Soundcloud", "url": "https://soundcloud.com/mehmet-colak/circadian-ryhthm-long-cut?si=4144eee49bff470887ad09d5e9d2cbab&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" }
+      {
+        "title": "Soundcloud",
+        "url": "https://soundcloud.com/mehmet-colak/macka-emg-2019-making-noise-with-can-memisogullari?si=f6e08f3914cc4b3392344ce63546a578&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
+      },
+      {
+        "title": "Soundcloud",
+        "url": "https://soundcloud.com/mehmet-colak/circadian-ryhthm-long-cut?si=4144eee49bff470887ad09d5e9d2cbab&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
+      }
     ]
   },
-
   {
     "section": "events",
     "featured": true,
@@ -147,7 +188,10 @@
       "./images/MehmetColak_G4C.webp"
     ],
     "links": [
-      { "title": "Instagram Post", "url": "https://www.instagram.com/p/DR9N0MRiD83/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ==" }
+      {
+        "title": "Instagram Post",
+        "url": "https://www.instagram.com/p/DR9N0MRiD83/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ=="
+      }
     ]
   },
   {
@@ -161,7 +205,10 @@
       "./images/journal_club2.webp"
     ],
     "links": [
-      { "title": "Instagram Post", "url": "https://www.instagram.com/p/DLNXZHVtoDO/?utm_source=ig_web_copy_link&igsh=bzY0Y2Q2enZnN3Ji" }
+      {
+        "title": "Instagram Post",
+        "url": "https://www.instagram.com/p/DLNXZHVtoDO/?utm_source=ig_web_copy_link&igsh=bzY0Y2Q2enZnN3Ji"
+      }
     ]
   },
   {
@@ -174,10 +221,13 @@
       "./images/climatepactgj.webp"
     ],
     "links": [
-      { "title": "Itch.io", "url": "https://itch.io/jam/climate-pact-game-jam/rate/3451689" }
+      {
+        "title": "Itch.io",
+        "url": "https://itch.io/jam/climate-pact-game-jam/rate/3451689"
+      }
     ]
   },
-    {
+  {
     "section": "events",
     "title": "Global Game Jam",
     "year": "2017-2020",
@@ -190,7 +240,7 @@
       "./images/ggj20.webp"
     ]
   },
-    {
+  {
     "section": "commercial",
     "company": "Polycular",
     "title": "Crew Together XR",
@@ -199,7 +249,10 @@
     "description": "An immersive multiplayer XR experience designed to enhance teamwork and communication through collaborative missions. He crafted dynamic soundscapes and audio elements to support real-time interaction within the experience.",
     "images": [],
     "links": [
-      { "title": "Website", "url": "https://crewtogether.io/" }
+      {
+        "title": "Website",
+        "url": "https://crewtogether.io/"
+      }
     ]
   },
   {
@@ -214,8 +267,14 @@
       "./images/CES24.webp"
     ],
     "links": [
-      { "title": "Dreamspace Case Study", "url": "https://www.dreamspace.co/case-study/ces24" },
-      { "title": "Capitalevents", "url": "https://www.capitalevents.com.tr/togg-ces-2024.html" }
+      {
+        "title": "Dreamspace Case Study",
+        "url": "https://www.dreamspace.co/case-study/ces24"
+      },
+      {
+        "title": "Capitalevents",
+        "url": "https://www.capitalevents.com.tr/togg-ces-2024.html"
+      }
     ]
   },
   {
@@ -227,9 +286,18 @@
     "description": "Togg launched a series of social media commercials to promote its electric vehicles. He did sound design works in the commercials.",
     "images": [],
     "links": [
-      { "title": "Instagram Reel 1", "url": "https://www.instagram.com/reel/Cn3n3s6Dylg/" },
-      { "title": "Instagram Reel 2", "url": "https://www.instagram.com/reel/C3z8DzfxMC9/" },
-      { "title": "Instagram Reel 3", "url": "https://www.instagram.com/reel/CwUnlozt4an/" }
+      {
+        "title": "Instagram Reel 1",
+        "url": "https://www.instagram.com/reel/Cn3n3s6Dylg/"
+      },
+      {
+        "title": "Instagram Reel 2",
+        "url": "https://www.instagram.com/reel/C3z8DzfxMC9/"
+      },
+      {
+        "title": "Instagram Reel 3",
+        "url": "https://www.instagram.com/reel/CwUnlozt4an/"
+      }
     ]
   },
   {
@@ -251,8 +319,14 @@
     "description": "Hyundai introduced the IONIQ 5 electric vehicle at a launch event in Istanbul. He designed surround immersive sound for the event.",
     "images": [],
     "links": [
-      { "title": "Instagram Reel", "url": "https://www.instagram.com/reel/Ci5fSuCNnuM/" },
-      { "title": "Capitalevents", "url": "https://www.capitalevents.com.tr/hyundai_ioniq_5.html" }
+      {
+        "title": "Instagram Reel",
+        "url": "https://www.instagram.com/reel/Ci5fSuCNnuM/"
+      },
+      {
+        "title": "Capitalevents",
+        "url": "https://www.capitalevents.com.tr/hyundai_ioniq_5.html"
+      }
     ]
   },
   {
@@ -264,8 +338,14 @@
     "description": "Imagina produced and organized an event for Istanbul Metropolitan Municipality's annual celebration of the Republic Day of Turkey. He provided sound design services to the event's 40 minute immersive performance.",
     "images": [],
     "links": [
-      { "title": "Instagram Post", "url": "https://www.instagram.com/p/CzwAzY0IdHE/" },
-      { "title": "YouTube Live", "url": "https://www.youtube.com/live/tE0ZXT4BNE4" }
+      {
+        "title": "Instagram Post",
+        "url": "https://www.instagram.com/p/CzwAzY0IdHE/"
+      },
+      {
+        "title": "YouTube Live",
+        "url": "https://www.youtube.com/live/tE0ZXT4BNE4"
+      }
     ]
   },
   {
@@ -277,7 +357,10 @@
     "description": "Imagina organized the 28th TISK event. He was responsible for the event's sound design.",
     "images": [],
     "links": [
-      { "title": "Instagram Post", "url": "https://www.instagram.com/p/Cs8mKploxE8/" }
+      {
+        "title": "Instagram Post",
+        "url": "https://www.instagram.com/p/Cs8mKploxE8/"
+      }
     ]
   },
   {
@@ -293,7 +376,10 @@
       "./images/artechouse_btl2.webp"
     ],
     "links": [
-      { "title": "Artechouse Website", "url": "https://www.artechouse.com/beyond-the-light-webbys/" }
+      {
+        "title": "Artechouse Website",
+        "url": "https://www.artechouse.com/beyond-the-light-webbys/"
+      }
     ]
   },
   {
@@ -308,7 +394,10 @@
       "./images/artechouse_isekai2.webp"
     ],
     "links": [
-      { "title": "Artechouse Website", "url": "https://www.artechouse.com/program/isekai-blooming-parallel-worlds/" }
+      {
+        "title": "Artechouse Website",
+        "url": "https://www.artechouse.com/program/isekai-blooming-parallel-worlds/"
+      }
     ]
   },
   {
@@ -325,7 +414,10 @@
       "./images/sc1.webp"
     ],
     "links": [
-      { "title": "Decol Portfolio", "url": "https://www.decol.tv/portfolio/echoes-of-basilica/" }
+      {
+        "title": "Decol Portfolio",
+        "url": "https://www.decol.tv/portfolio/echoes-of-basilica/"
+      }
     ]
   },
   {
@@ -340,7 +432,10 @@
       "./images/FoR.webp"
     ],
     "links": [
-      { "title": "Meta Store", "url": "https://www.meta.com/de-de/experiences/forest-of-resilience/5871010366284296/" }
+      {
+        "title": "Meta Store",
+        "url": "https://www.meta.com/de-de/experiences/forest-of-resilience/5871010366284296/"
+      }
     ]
   },
   {
@@ -352,7 +447,10 @@
     "description": "Born Immersive developed Impulse Dynamics VR Experience, a virtual reality game. He served in the project as a technical audio designer.",
     "images": [],
     "links": [
-      { "title": "Born Studios Works", "url": "https://www.bornstudios.co.uk/#Works" }
+      {
+        "title": "Born Studios Works",
+        "url": "https://www.bornstudios.co.uk/#Works"
+      }
     ]
   },
   {
@@ -366,7 +464,10 @@
       "./images/vata.webp"
     ],
     "links": [
-      { "title": "Born Studios Works", "url": "https://www.bornstudios.co.uk/#Works" }
+      {
+        "title": "Born Studios Works",
+        "url": "https://www.bornstudios.co.uk/#Works"
+      }
     ]
   },
   {
@@ -380,135 +481,69 @@
       "./images/maji.webp"
     ],
     "links": [
-      { "title": "IMDB", "url": "https://www.imdb.com/title/tt32649025/" }
+      {
+        "title": "IMDB",
+        "url": "https://www.imdb.com/title/tt32649025/"
+      }
     ]
   },
   {
     "section": "commercial",
-    "company": "Tilde Sound Art",
-    "title": "Vadi Sound - Gore SFX Pack",
-    "year": "2020",
-    "role": "Sound Designer",
-    "description": "A collection of realistic and intense gore sound effects for games and films. He designed and edited all sounds.",
-    "images": [
-      "./images/vadi_gore.webp"
-    ],
-    "links": [
-      { "title": "Vadi Sound Shop", "url": "https://vadisound.com/shop/gore-sfx-pack/" },
-      { "title": "YouTube Demo", "url": "https://youtu.be/BLN7cj9MYNQ" }
-    ]
-  },
-  {
-    "section": "commercial",
-    "company": "Tilde Sound Art",
-    "title": "Vadi Sound - Anime I SFX Pack",
-    "year": "2021",
-    "role": "Sound Designer",
-    "description": "A library of stylized sound effects inspired by anime aesthetics, including punches, swooshes, and magical effects.",
-    "images": [
-      "./images/vadi_anime.webp"
-    ],
-    "links": [
-      { "title": "Vadi Sound Shop", "url": "https://vadisound.com/shop/anime-vol-1/" },
-      { "title": "YouTube Demo", "url": "https://youtu.be/2exRZtJpz60" }
-    ]
-  },
-  {
-    "section": "commercial",
-    "company": "Tilde Sound Art",
-    "title": "Vadi Sound - Cinematic Series Vol.1",
-    "year": "2021",
-    "role": "Sound Designer",
-    "description": "A cinematic sound effects set for trailers, films, and video games.",
-    "images": [
-      "./images/vadi_cinematic.webp"
-    ],
-    "links": [
-      { "title": "Vadi Sound Shop", "url": "https://vadisound.com/shop/cinematic-series-vol-1/" },
-      { "title": "YouTube Demo", "url": "https://youtu.be/SEinxajqh_Q" }
-    ]
-  },
-  {
-    "section": "commercial",
-    "company": "Tilde Sound Art",
-    "title": "Vadi Sound - Shine and Glitter",
-    "year": "2021",
-    "role": "Sound Designer",
-    "description": "A sound effects library of sparkling, magical, and glittery sound effects.",
-    "images": [
-      "./images/vadi_shineandglitter.webp"
-    ],
-    "links": [
-      { "title": "Vadi Sound Shop", "url": "https://vadisound.com/shop/shine-and-glitter/" },
-      { "title": "YouTube Demo", "url": "https://youtu.be/QIw-MQpPkbQ" }
-    ]
-  },
-  {
-    "section": "commercial",
-    "company": "Tilde Sound Art",
-    "title": "Vadi Sound - Metal SFX Pack",
-    "year": "2021",
-    "role": "Sound Designer",
-    "description": "A comprehensive collection of metallic hits, clangs, and impacts.",
-    "images": [
-      "./images/vadi_metal.webp"
-    ],
-    "links": [
-      { "title": "Vadi Sound Shop", "url": "https://vadisound.com/shop/metal-sfx-pack/" },
-      { "title": "YouTube Demo", "url": "https://youtu.be/xvwjoOg1QnY" }
-    ]
-  },
-  {
-    "section": "commercial",
-    "company": "Tilde Sound Art",
-    "title": "Vadi Sound - Magic SFX Pack",
-    "year": "2021",
-    "role": "Sound Designer",
-    "description": "A curated library of magical and mystical sound effects for fantasy media.",
-    "images": [
-      "./images/vadi_magic.webp"
-    ],
-    "links": [
-      { "title": "Vadi Sound Shop", "url": "https://vadisound.com/shop/essential-magic/" },
-      { "title": "YouTube Demo", "url": "https://youtu.be/Sf3d1RwRVM0" }
-    ]
-  },
-  {
-    "section": "commercial",
-    "company": "Tilde Sound Art",
-    "title": "Vadi Sound - Cloth SFX Pack",
-    "year": "2021",
-    "role": "Sound Designer",
-    "description": "A detailed collection of cloth and fabric movement sounds.",
-    "images": [],
-    "links": [
-      { "title": "YouTube Demo", "url": "https://youtu.be/5onK_Cf_Nqo" }
-    ]
-  },
-  {
-    "section": "commercial",
-    "company": "Tilde Sound Art",
-    "title": "Vadi Sound - Impulse Response SFX Pack",
-    "year": "2021",
-    "role": "Sound Designer",
-    "description": "A pack of impulse responses for spatial sound design and mixing.",
-    "images": [],
-    "links": [
-      { "title": "YouTube Demo", "url": "https://youtu.be/jfn5AZBnTiE" }
-    ]
-  },
-  {
-    "section": "commercial",
-    "company": "Tilde Sound Art",
-    "title": "Vadi Sound Library",
-    "year": "2021",
+    "featured": false,
+    "title": "Vadi Sound Effect Libraries",
+    "year": "2020-2021",
     "role": "Sound Designer, Field Recorder",
-    "description": "An extensive library of high-quality sound effects across genres. He designed sounds and recorded field material.",
+    "description": "A set of sound effect libraries I designed and edited for Vadi Sound between 2020 and 2021. The packs cover a wide range of needs. Gore is for realistic, intense horror sounds. Anime I is a stylized pack with punches, swooshes, and magic. Cinematic Series Vol.1 is built for trailers, films, and games. Shine and Glitter is full of sparkling, magical tones, and Magic adds fantasy and mystical effects. Metal is a set of metallic hits, clangs, and impacts. Cloth covers fabric and clothing movement, and the Impulse Response pack is for spatial design and mixing. I also designed sounds and recorded field material for the wider Vadi Sound Library, a large general purpose collection across genres.",
     "images": [
+      "./images/vadi_gore.webp",
+      "./images/vadi_anime.webp",
+      "./images/vadi_cinematic.webp",
+      "./images/vadi_shineandglitter.webp",
+      "./images/vadi_metal.webp",
+      "./images/vadi_magic.webp",
       "./images/vadi_subscription.webp"
     ],
     "links": [
-      { "title": "YouTube Demo", "url": "https://youtu.be/XPSX-_Thf6A" }
+      {
+        "title": "Vadi Sound Shop",
+        "url": "https://vadisound.com/shop/"
+      },
+      {
+        "title": "Gore demo",
+        "url": "https://youtu.be/BLN7cj9MYNQ"
+      },
+      {
+        "title": "Anime I demo",
+        "url": "https://youtu.be/2exRZtJpz60"
+      },
+      {
+        "title": "Cinematic Vol.1 demo",
+        "url": "https://youtu.be/SEinxajqh_Q"
+      },
+      {
+        "title": "Shine and Glitter demo",
+        "url": "https://youtu.be/QIw-MQpPkbQ"
+      },
+      {
+        "title": "Metal demo",
+        "url": "https://youtu.be/xvwjoOg1QnY"
+      },
+      {
+        "title": "Magic demo",
+        "url": "https://youtu.be/Sf3d1RwRVM0"
+      },
+      {
+        "title": "Cloth demo",
+        "url": "https://youtu.be/5onK_Cf_Nqo"
+      },
+      {
+        "title": "Impulse Response demo",
+        "url": "https://youtu.be/jfn5AZBnTiE"
+      },
+      {
+        "title": "Sound Library demo",
+        "url": "https://youtu.be/XPSX-_Thf6A"
+      }
     ]
   },
   {
@@ -519,7 +554,10 @@
     "description": "A Python script process 2 signals with the deconvolution of audio signals to extract the impulse response from a recorded audio file using a reference file.",
     "images": [],
     "links": [
-      { "title": "GitHub Repo", "url": "https://github.com/MehmetColaak/Deconvolution_Project" }
+      {
+        "title": "GitHub Repo",
+        "url": "https://github.com/MehmetColaak/Deconvolution_Project"
+      }
     ]
   },
   {
@@ -530,7 +568,10 @@
     "description": "This project is inspired by Conway's Game of Life. By instantiating every Game of Life(GoL) cell state in a new vertical layer, It iterates the system that outputs sculpture like objects.",
     "images": [],
     "links": [
-      { "title": "GitHub Repo", "url": "https://github.com/MehmetColaak/GameOfLife_Sculpture" }
+      {
+        "title": "GitHub Repo",
+        "url": "https://github.com/MehmetColaak/GameOfLife_Sculpture"
+      }
     ]
   },
   {
@@ -541,7 +582,10 @@
     "description": "Boids algoritm implementation that uses 2D Linz noise map as attaction force.",
     "images": [],
     "links": [
-      { "title": "GitHub Repo", "url": "https://github.com/MehmetColaak/boids" }
+      {
+        "title": "GitHub Repo",
+        "url": "https://github.com/MehmetColaak/boids"
+      }
     ]
   },
   {
@@ -554,8 +598,14 @@
       "./images/diy_electronics1.webp"
     ],
     "links": [
-      { "title": "YouTube Part 1", "url": "https://youtu.be/EDVt-xllTKg" },
-      { "title": "YouTube Part 2", "url": "https://youtu.be/ECHfqBxmCtg" }
+      {
+        "title": "YouTube Part 1",
+        "url": "https://youtu.be/EDVt-xllTKg"
+      },
+      {
+        "title": "YouTube Part 2",
+        "url": "https://youtu.be/ECHfqBxmCtg"
+      }
     ]
   },
   {
@@ -568,10 +618,22 @@
       "./images/motor_synth.webp"
     ],
     "links": [
-      { "title": "Instagram Highlight", "url": "https://www.instagram.com/stories/highlights/18053130362138379/" },
-      { "title": "Instagram Reel 1", "url": "https://www.instagram.com/reel/DNOI5umITMs/" },
-      { "title": "Instagram Reel 2", "url": "https://www.instagram.com/reel/DK7h7fEor3a/" },
-      { "title": "Instagram Reel 3", "url": "https://www.instagram.com/reel/DKPAlSfomju/" }
+      {
+        "title": "Instagram Highlight",
+        "url": "https://www.instagram.com/stories/highlights/18053130362138379/"
+      },
+      {
+        "title": "Instagram Reel 1",
+        "url": "https://www.instagram.com/reel/DNOI5umITMs/"
+      },
+      {
+        "title": "Instagram Reel 2",
+        "url": "https://www.instagram.com/reel/DK7h7fEor3a/"
+      },
+      {
+        "title": "Instagram Reel 3",
+        "url": "https://www.instagram.com/reel/DKPAlSfomju/"
+      }
     ]
   },
   {
@@ -584,7 +646,10 @@
       "./images/Pre(face).webp"
     ],
     "links": [
-      { "title": "Vimeo Video", "url": "https://vimeo.com/1081423803" }
+      {
+        "title": "Vimeo Video",
+        "url": "https://vimeo.com/1081423803"
+      }
     ]
   }
 ]

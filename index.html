@@ -1,144 +1,179 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Serin Sound - Mehmet Çolak</title>
-    <meta name="description" content="Portfolio of Mehmet Çolak (SerinSound), audio designer and interactive media artist. Works, documents, and videos.">
-    <meta name="author" content="Mehmet Çolak">
-    <meta name="theme-color" content="#fdf5d5" media="(prefers-color-scheme: light)">
-    <meta name="theme-color" content="#16161a" media="(prefers-color-scheme: dark)">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mehmet Çolak, Technical Audio Designer, Linz</title>
+  <meta name="description" content="Mehmet Çolak (SerinSound), technical audio designer and interactive media artist based in Linz. Soundscapes and interactive audio for games, films, and installations.">
+  <meta name="author" content="Mehmet Çolak">
+  <!-- Social sharing -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Mehmet Çolak · SerinSound">
+  <meta property="og:description" content="Technical audio designer and interactive media artist based in Linz. Soundscapes and interactive audio for games, films, and installations.">
+  <meta property="og:image" content="./og-image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="theme-color" content="#fdf5d5" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#16161a" media="(prefers-color-scheme: dark)">
 
-    <!-- Social sharing -->
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="Serin Sound - Mehmet Çolak">
-    <meta property="og:description" content="Audio designer and interactive media artist. Works, documents, and videos.">
-    <meta property="og:image" content="./og-image.png">
-    <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32.png">
+  <link rel="apple-touch-icon" href="./apple-touch-icon.png">
+  <link rel="preload" href="./fonts/IosevkaEtoile-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="style.css">
 
-    <!-- Icons -->
-    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32.png">
-    <link rel="apple-touch-icon" href="./apple-touch-icon.png">
-
-    <!-- Preload the primary font (small, self-hosted) -->
-    <link rel="preload" href="./fonts/IosevkaEtoile-Regular.woff2" as="font" type="font/woff2" crossorigin>
-
-    <link rel="stylesheet" href="style.css">
-
-    <!-- Set theme before first paint to avoid a flash of the wrong mode -->
-    <script>
-      (function () {
-        try {
-          var saved = localStorage.getItem('theme');
-          var dark = saved ? saved === 'dark'
-                           : window.matchMedia('(prefers-color-scheme: dark)').matches;
-          if (dark) document.documentElement.classList.add('dark-mode');
-        } catch (e) {}
-      })();
-    </script>
+  <script>
+    (function () {
+      try {
+        var saved = localStorage.getItem('theme');
+        var dark = saved ? saved === 'dark'
+                         : window.matchMedia('(prefers-color-scheme: dark)').matches;
+        if (dark) document.documentElement.classList.add('dark-mode');
+      } catch (e) {}
+    })();
+  </script>
 </head>
 <body>
-    <main class="main-content">
-      <div class="container">
+  <main class="page">
 
-        <!-- Dark Mode Toggle Button -->
-        <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle dark mode" title="Toggle dark mode">
-            <span class="icon-moon">dark</span>
-            <span class="icon-sun">light</span>
+    <!-- SIDEBAR TOC -->
+    <aside class="toc" aria-label="Table of contents">
+      <p class="toc__brand">Mehmet Çolak</p>
+      <span class="toc__role">Technical Audio Designer · Linz</span>
+      <nav>
+        <ul class="toc__list">
+          <li><a href="#index"><span class="num">00</span><span>Index</span></a></li>
+          <li><a href="#video"><span class="num">01</span><span>Videos</span></a></li>
+          <li><a href="#works"><span class="num">02</span><span>Works</span></a></li>
+          <li><a href="#docs"><span class="num">03</span><span>Documents</span></a></li>
+          <li><a href="#reach"><span class="num">04</span><span>Links</span></a></li>
+        </ul>
+      </nav>
+      <div class="toc__meta">
+        <span>Linz, AT · GMT+1</span>
+        <span>SerinSound</span>
+        <span>set in Iosevka Etoile</span>
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle colour scheme">
+          <span class="tt-dark">☾ dark</span><span class="tt-light">☀ light</span>
         </button>
-
-        <!-- Hero -->
-        <header class="hero">
-          <p class="hero-eyebrow">SerinSound</p>
-          <h1 class="hero-name">Mehmet Çolak</h1>
-          <p class="hero-role">Technical Audio Designer &amp; Interactive Media Artist</p>
-          <p class="hero-tagline">Immersive soundscapes, interactive audio, and environmental storytelling.</p>
-          <nav class="hero-contact" aria-label="Contact and social links">
-            <a class="contact-btn" href="mailto:colak.mehmet@hotmail.com">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
-              Email
-            </a>
-            <a class="contact-btn" href="https://www.youtube.com/@serinsound" target="_blank" rel="noopener">
-              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M23 12s0-3.9-.5-5.6a2.8 2.8 0 0 0-2-2C18.8 4 12 4 12 4s-6.8 0-8.5.4a2.8 2.8 0 0 0-2 2C1 8.1 1 12 1 12s0 3.9.5 5.6a2.8 2.8 0 0 0 2 2C5.2 20 12 20 12 20s6.8 0 8.5-.4a2.8 2.8 0 0 0 2-2C23 15.9 23 12 23 12ZM10 15.5v-7l6 3.5-6 3.5Z"/></svg>
-              YouTube
-            </a>
-            <a class="contact-btn" href="https://www.instagram.com/serinsound/" target="_blank" rel="noopener">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
-              Instagram
-            </a>
-            <a class="contact-btn" href="https://www.linkedin.com/in/mehmet-colak/" target="_blank" rel="noopener">
-              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4.98 3.5A2.5 2.5 0 1 0 5 8.5a2.5 2.5 0 0 0 0-5ZM3 9h4v12H3V9Zm7 0h3.8v1.7h.05a4.2 4.2 0 0 1 3.75-2c4 0 4.75 2.6 4.75 6V21h-4v-5.3c0-1.3 0-2.9-1.8-2.9s-2 1.4-2 2.8V21h-4V9Z"/></svg>
-              LinkedIn
-            </a>
-          </nav>
-        </header>
-
-        <!-- Bio -->
-        <section class="works-section">
-          <div class="bio-container">
-            <div class="bio-image">
-              <img src="./images/profile_pic_robot.webp" alt="Mehmet Çolak" class="profile-image" width="300" height="300">
-            </div>
-            <div class="bio-text">
-                <h2>About</h2>
-                <div>Mehmet Çolak is an audio designer and interactive media artist from Turkey, currently based in Austria, earned his master's degree in Interface Cultures at University of Art and Design Linz. His design approach is to create soundscapes and interactive audio experiences with gamification and auditory environmental narration to enhance immersion.</div>
-            </div>
-          </div>
-
-          <!-- Featured Videos carousel -->
-          <section class="featured-videos" aria-label="Featured videos">
-            <div class="section-head">
-              <h2>Featured Videos</h2>
-              <div class="carousel-nav">
-                <button class="carousel-btn" data-dir="prev" aria-label="Scroll videos left">‹</button>
-                <button class="carousel-btn" data-dir="next" aria-label="Scroll videos right">›</button>
-              </div>
-            </div>
-            <div class="video-track" id="video-track"></div>
-          </section>
-
-          <!-- Tabs -->
-          <div class="works-tabs" role="tablist">
-            <button class="tab-button active" data-tab="portfolio">Works</button>
-            <button class="tab-button" data-tab="resume">Docs</button>
-          </div>
-
-          <!-- Works -->
-          <div class="tab-content active" id="portfolio-tab">
-            <div id="featured-works" class="featured-works" hidden></div>
-            <div id="dynamic-content">
-                <p>Loading projects…</p>
-            </div>
-          </div>
-
-          <!-- Docs -->
-          <div class="tab-content" id="resume-tab">
-            <div class="pdf-container-wrapper">
-              <div class="pdf-container">
-                <h3>Resume
-                  <a class="pdf-open" href="./documents/Mehmet_Colak_CV.pdf" target="_blank" rel="noopener">Open ↗</a>
-                </h3>
-                <embed src="./documents/Mehmet_Colak_CV.pdf" type="application/pdf" />
-              </div>
-              <div class="pdf-container">
-                <h3>Master Thesis - Embracing Sphere
-                  <a class="pdf-open" href="./documents/Colak_Mehmet_Masterarbeit.pdf" target="_blank" rel="noopener">Open ↗</a>
-                </h3>
-                <embed src="./documents/Colak_Mehmet_Masterarbeit.pdf" type="application/pdf" />
-              </div>
-            </div>
-          </div>
-
-        </section>
-
-        <!-- Banner -->
-        <section class="banner-section">
-          <img src="./images/SerinSound_Logo(sqr-bnw).webp" alt="SerinSound" class="banner-image" title="SerinSound">
-        </section>
-
       </div>
-    </main>
+    </aside>
 
-    <script src="script.js"></script>
-  </body>
+    <!-- MAIN -->
+    <article class="main">
+
+      <section class="section" id="index">
+        <p class="section__num">00 · Index</p>
+        <h1 class="section__head section__head--lede">I design sound,<br>develop interactive audio.</h1>
+        <div class="section__body index-body">
+          <div class="index-prose">
+            <p>
+              I'm <strong>Mehmet Çolak</strong>, an audio designer and interactive media artist from
+              Turkey, based in Linz, Austria. I have a master's degree in <strong>Interface
+              Cultures</strong> from the University of Art and Design Linz.
+            </p>
+            <p>
+              I make soundscapes and interactive audio for games, films, and installations. I care
+              about sound that makes a space feel real and pulls people in. Below you can find my
+              videos, works, documents, and links.
+            </p>
+          </div>
+          <figure class="index-portrait">
+            <img src="./images/profile_pic_robot.webp" alt="Mehmet Çolak" width="300" height="300">
+          </figure>
+          <div class="skills">
+            <span class="skills__cat">Audio Tools</span>
+            <ul class="skills__list">
+                <li class="skill"><span class="skill__i" style="--i:url('icons/skill-reaper.svg')"></span><span>Reaper</span></li>
+                <li class="skill"><span class="skill__i" style="--i:url('icons/skill-ableton-live.svg')"></span><span>Ableton Live</span></li>
+                <li class="skill"><span class="skill__i" style="--i:url('icons/skill-puredata.svg')"></span><span>Pure Data</span></li>
+                <li class="skill"><span class="skill__i" style="--i:url('icons/skill-maxmsp.svg')"></span><span>Max/MSP</span></li>
+            </ul>
+            <span class="skills__cat">Game Engines</span>
+            <ul class="skills__list">
+                <li class="skill"><span class="skill__i" style="--i:url('icons/skill-unity.svg')"></span><span>Unity</span></li>
+                <li class="skill"><span class="skill__i" style="--i:url('icons/skill-unrealengine.svg')"></span><span>Unreal Engine</span></li>
+                <li class="skill"><span class="skill__i" style="--i:url('icons/skill-godot.svg')"></span><span>Godot</span></li>
+            </ul>
+            <span class="skills__cat">Audio Middlewares</span>
+            <ul class="skills__list">
+                <li class="skill"><span class="skill__i" style="--i:url('icons/skill-wwise.svg')"></span><span>Wwise</span></li>
+                <li class="skill"><span class="skill__i" style="--i:url('icons/skill-fmod.svg')"></span><span>FMOD</span></li>
+            </ul>
+            <span class="skills__cat">Programming Languages</span>
+            <ul class="skills__list">
+                <li class="skill"><span class="skill__i" style="--i:url('icons/skill-cplusplus.svg')"></span><span>C++</span></li>
+                <li class="skill"><span class="skill__i" style="--i:url('icons/skill-python.svg')"></span><span>Python</span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="video">
+        <p class="section__num">01 · Videos</p>
+        <h2 class="section__head">My audio related video essays.</h2>
+        <div class="section__body" style="max-width:none">
+          <div class="videos" id="videos"></div>
+        </div>
+      </section>
+
+      <section class="section" id="works">
+        <p class="section__num">02 · Works</p>
+        <h2 class="section__head">Selected works.</h2>
+        <div class="section__body" style="max-width:none">
+          <ul class="worklist" id="worklist"><li class="status">Loading works…</li></ul>
+        </div>
+      </section>
+
+      <section class="section" id="docs">
+        <p class="section__num">03 · Documents</p>
+        <h2 class="section__head">My CV and Thesis.</h2>
+        <div class="section__body" style="max-width:none">
+          <div class="docs">
+            <div class="doc">
+              <div class="doc__head">
+                <span class="doc__title">Résumé / CV</span>
+                <a class="doc__open" href="./documents/Mehmet_Colak_CV.pdf" target="_blank" rel="noopener">Open ↗</a>
+              </div>
+              <embed src="./documents/Mehmet_Colak_CV.pdf" type="application/pdf">
+            </div>
+            <div class="doc">
+              <div class="doc__head">
+                <span class="doc__title">Master Thesis: Embracing Sphere</span>
+                <a class="doc__open" href="./documents/Colak_Mehmet_Masterarbeit.pdf" target="_blank" rel="noopener">Open ↗</a>
+              </div>
+              <embed src="./documents/Colak_Mehmet_Masterarbeit.pdf" type="application/pdf">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="reach">
+        <p class="section__num">04 · Links</p>
+        <h2 class="section__head">Ask anything and see more.</h2>
+        <div class="section__body" style="max-width:none">
+          <div class="contact">
+            <div class="contact__row">
+              <span class="contact__label">Email</span>
+              <span class="contact__value"><a href="mailto:colak.mehmet@hotmail.com">colak.mehmet@hotmail.com</a></span>
+            </div>
+            <div class="contact__row">
+              <span class="contact__label">YouTube</span>
+              <span class="contact__value"><a href="https://www.youtube.com/@serinsound" target="_blank" rel="noopener">@serinsound</a></span>
+            </div>
+            <div class="contact__row">
+              <span class="contact__label">Instagram</span>
+              <span class="contact__value"><a href="https://www.instagram.com/serinsound/" target="_blank" rel="noopener">@serinsound</a></span>
+            </div>
+            <div class="contact__row">
+              <span class="contact__label">LinkedIn</span>
+              <span class="contact__value"><a href="https://www.linkedin.com/in/mehmet-colak/" target="_blank" rel="noopener">/in/mehmet-colak</a></span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+  <script src="script.js"></script>
+</body>
 </html>
