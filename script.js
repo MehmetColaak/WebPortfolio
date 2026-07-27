@@ -18,10 +18,25 @@ document.addEventListener('DOMContentLoaded', function () {
   setupThemeToggle();
   setupScrollSpy();
   setupLightbox();
+  setupDocLinks();
 });
 
 function esc(s) {
   return String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+}
+
+/* ---------- ANALYTICS (GoatCounter custom events) ---------- */
+function track(path, title) {
+  try {
+    if (window.goatcounter && window.goatcounter.count) {
+      window.goatcounter.count({ path: path, title: title, event: true });
+    }
+  } catch (e) {}
+}
+function slug(s) {
+  return String(s)
+    .normalize('NFD').replace(/[\u0300-\u036f]/g, '')   // strip diacritics (e-acute -> e, c-cedilla -> c)
+    .toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '').slice(0, 60);
 }
 
 /* ---------- VIDEOS (facade) ---------- */
@@ -41,6 +56,7 @@ function renderVideos() {
       </span>
       <span class="video-cap">${esc(v.title)}</span>`;
     card.addEventListener('click', () => {
+      track('video/' + slug(v.title), 'Video: ' + v.title);
       const thumb = card.querySelector('.video-thumb');
       const iframe = document.createElement('iframe');
       iframe.src = `https://www.youtube-nocookie.com/embed/${v.id}?autoplay=1&rel=0`;
@@ -130,6 +146,7 @@ function createWork(project) {
   head.addEventListener('click', () => {
     const open = li.classList.toggle('open');
     head.setAttribute('aria-expanded', open ? 'true' : 'false');
+    if (open) track('work/' + slug(project.title), 'Work: ' + project.title);
   });
 
   li.appendChild(head);
@@ -144,6 +161,17 @@ function setupThemeToggle() {
   btn.addEventListener('click', () => {
     const dark = document.documentElement.classList.toggle('dark-mode');
     try { localStorage.setItem('theme', dark ? 'dark' : 'light'); } catch (e) {}
+  });
+}
+
+/* ---------- DOCUMENT OPEN TRACKING ---------- */
+function setupDocLinks() {
+  document.querySelectorAll('.doc__open').forEach(a => {
+    a.addEventListener('click', () => {
+      const head = a.closest('.doc__head');
+      const t = head ? head.querySelector('.doc__title').textContent.trim() : 'document';
+      track('doc/' + slug(t), 'Document: ' + t);
+    });
   });
 }
 
