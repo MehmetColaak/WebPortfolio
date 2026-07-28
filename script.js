@@ -10,7 +10,7 @@ const FEATURED_VIDEOS = [
   { id: 'v7bAAhoWD_o', title: 'Engine Articulation | Building an Instrument' },
 ];
 
-const SECTION_ORDER = ['exhibitions', 'commercial', 'performances', 'events', 'personal'];
+const SECTION_ORDER = [ 'commercial', 'exhibitions', 'events', 'performances', 'personal'];
 
 document.addEventListener('DOMContentLoaded', function () {
   renderVideos();
